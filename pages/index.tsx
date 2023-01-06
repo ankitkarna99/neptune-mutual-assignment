@@ -28,6 +28,9 @@ export default function Home() {
 
   return (
     <HomeStyles>
+      <Head>
+        <title>Frontend Assignment - Neptune Mutual</title>
+      </Head>
       <div className="app-info">
         <Image src={"/images/logo.svg"} alt="Logo" width={297} height={48} />
       </div>
